@@ -3,6 +3,7 @@ import { defaultTheme } from "./styles/themes/default"
 import { GlobalStyle } from "./styles/global"
 import { DefaultLayout } from "./DefaultLayout"
 import Header from "./components/Header"
+import { Footer, MascotFooter } from "./components/Footer"
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
     <ThemeProvider theme= {defaultTheme}>
       <Header/>
       <DefaultLayout/>
+      <Footer/>
+      <MascotFooter/>
       <GlobalStyle/>
     </ThemeProvider>
 
