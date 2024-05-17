@@ -11,8 +11,8 @@ function App() {
     <ThemeProvider theme= {defaultTheme}>
       <Header/>
       <DefaultLayout/>
-      <Footer/>
       <MascotFooter/>
+      <Footer/>
       <GlobalStyle/>
     </ThemeProvider>
 

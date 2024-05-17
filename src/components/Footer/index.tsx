@@ -1,5 +1,5 @@
 import { DivFooter, ImageDiv, ImageFooter, LayoutFooter } from "./styles";
-import mascotImage from '../../assets/Litto_1.png'
+import mascotImage from '../../assets/Litto_3.png'
 
 export const Footer = () => {
     return (
@@ -12,7 +12,7 @@ export const Footer = () => {
 export const MascotFooter = () => {
     return (
         <ImageDiv>
-        <ImageFooter src={mascotImage} alt="" width={300} height={100}/>
+            <ImageFooter src={mascotImage} alt="" width={300} height={100}/>
         </ImageDiv>
     )
-}
+} 

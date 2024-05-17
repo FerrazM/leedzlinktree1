@@ -3,7 +3,8 @@ import styled from "styled-components"
 const breakpoint = '768px';
 
 export const LayoutFooter = styled.footer`
-    margin: 1.5rem;
+    margin-left: 1.5rem;
+    padding-bottom: -2em;
 
     @media (max-width: ${breakpoint}) {
     margin-bottom: 5rem;
@@ -11,8 +12,8 @@ export const LayoutFooter = styled.footer`
 `
 
 export const ImageFooter = styled.img`
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
 
     @media (max-width: ${breakpoint}) {
     width: 100px;
@@ -27,9 +28,8 @@ export const DivFooter = styled.text`
 }    
 `
 
-export const ImageDiv = styled.footer`
+export const ImageDiv = styled.image`
     display: flex;
     justify-content: flex-end;
-    margin: 1.5rem;
-    margin-top: -10em;
+    margin-top: -19.7em;
 `
