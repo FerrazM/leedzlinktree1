@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body, input, textarea, button {
-        font-family: "Unbounded", sans-serif, smooth;
+        font-family: "Darker Grotesque", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;

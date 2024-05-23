@@ -26,7 +26,7 @@ export const StyledLink = styled.a`
     font-size: 20px;
     display: flex;
     position: relative;
-    font-weight: bold;
+    font-weight: 900;
     justify-content: center;
     align-items: center;
     align-self: stretch;

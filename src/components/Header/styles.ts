@@ -13,6 +13,7 @@ export const LayoutHeader = styled.header`
 `;
 
 export const SubContainer = styled.div`
+  font-family: "Unbounded", sans-serif;
   font-size: 20px;
   margin-top: 4rem;
   color: white;
