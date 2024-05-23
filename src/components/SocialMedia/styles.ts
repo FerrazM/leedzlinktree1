@@ -23,7 +23,7 @@ export const StyledLink = styled.a`
     height: 8vh;
     color: white;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 28px;
     display: flex;
     position: relative;
     font-weight: 900;
