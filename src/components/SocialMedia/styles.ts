@@ -15,10 +15,12 @@ export const LayoutLinks = styled.div`
 `;
 export const IconImage = styled.div`
     
-    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
     display: grid;
     justify-content: center;
-   
+    font-size: 2rem;
+    font-weight: bold;
     `
 
 export const StyledLink = styled.a`
